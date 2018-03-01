@@ -19,8 +19,11 @@ function johnLennonFacts(johnFacts){
 function iLoveTheBeatles(myNumber){
   var beatlesArray = [];
   do{
+    console.log(`Original Number: ${myNumber}`);
     beatlesArray.push("I love the Beatles!");
     myNumber++;
+    console.log(`Updated Number: ${myNumber}`);
+    console.log(beatlesArray);
   } while(myNumber < 15){
     return "I love the Beatles!";
   }
