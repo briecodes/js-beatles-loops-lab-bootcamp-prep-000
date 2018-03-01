@@ -33,6 +33,6 @@ function johnLennonFacts(johnFacts){
   console.log(`Total Number of Facts: ${johnFacts.length}.`);
   do{
     console.log(`Logging number ${i}.`);
-    i++
+    i++;
   } while (i < johnFacts.length);
 }
