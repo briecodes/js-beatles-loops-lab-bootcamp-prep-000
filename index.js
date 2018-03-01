@@ -25,6 +25,6 @@ function iLoveTheBeatles(myNumber){
     console.log(`Updated Number: ${myNumber}`);
     console.log(beatlesArray);
   } while(myNumber < 15){
-    return "I love the Beatles!";
+    return beatlesArray;
   }
 }
