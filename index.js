@@ -32,5 +32,5 @@ function johnLennonFacts(johnFacts){
   let i = 0;
   do{
     console.log(i++);
-  } while (i < johnFacts && johnLennonFacts())
+  } while (i < johnFacts.length && johnLennonFacts());
 }
