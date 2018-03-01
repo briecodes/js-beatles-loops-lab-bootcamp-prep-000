@@ -34,5 +34,7 @@ function johnLennonFacts(johnFacts){
   do{
     
     console.log(`Logging number ${i}.`);
-  } while (i < johnFacts.length && johnLennonFacts());
+  } while (i < johnFacts.length){
+    
+  }
 }
