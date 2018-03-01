@@ -16,14 +16,18 @@ function theBeatlesPlay(musicians, instruments){
 //   } while( i < johnFacts.length && johnLennonFacts());
 // }
 
+// function johnLennonFacts(johnFacts){
+//   for (var i = 0; ; i++){
+//     var myNumber = i;
+//     console.log("my number: " + myNumber);
+//     break;
+//   }
+//   do{
+//     johnFacts[i] = `${johnFacts}!!!`;
+//     console.log(johnFacts);
+//   } while (i < johnFacts.length && johnLennonFacts());
+// }
+
 function johnLennonFacts(johnFacts){
-  for (var i = 0; ; i++){
-    var myNumber = i;
-    console.log("my number: " + myNumber);
-    break;
-  }
-  do{
-    johnFacts[i] = `${johnFacts}!!!`;
-    console.log(johnFacts);
-  } while (i < johnFacts.length && johnLennonFacts());
+  let 
 }
