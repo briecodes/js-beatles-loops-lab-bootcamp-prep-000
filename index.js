@@ -30,10 +30,10 @@ function theBeatlesPlay(musicians, instruments){
 
 function johnLennonFacts(johnFacts){
   let i = 0;
-  console.log(`Total Number of Facts: ${johnFacts.length}.`);
   do{
-    console.log(`Logging number ${i}.`);
-    console.log(`Array #${i}: ${johnFacts[i]}`);
+    johnFacts[i] = `${johnFacts[i]}!!!`;
     i++;
-  } while (i < johnFacts.length);
+  } while (i < johnFacts.length){
+    return johnFacts;
+  }
 }
