@@ -29,5 +29,8 @@ function theBeatlesPlay(musicians, instruments){
 // }
 
 function johnLennonFacts(johnFacts){
-  let 
+  let i = 0;
+  do{
+    console.log(i++);
+  } while (i < johnFacts && johnLennonFacts())
 }
